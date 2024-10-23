@@ -28,7 +28,7 @@ class DatabaseApp:
         self.main_frame.place(relx=0.5, rely=0.5, anchor="center")
 
         # Database connection fields
-        self.db_name = tk.StringVar(value='dbtest')
+        self.db_name = tk.StringVar(value='qlsv')
         self.user = tk.StringVar(value='postgres')
         self.password = tk.StringVar(value='123456')
         self.host = tk.StringVar(value='localhost')
